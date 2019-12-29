@@ -37,5 +37,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>测试 | 简单实用</title>
+      <link>https://failcom.github.io/post/test/</link>
+      <pubDate>Fri, 13 Dec 2019 21:00:00 +0800</pubDate>
+      
+      <guid>https://failcom.github.io/post/test/</guid>
+      <description>#测试</description>
+    </item>
+    
   </channel>
 </rss>

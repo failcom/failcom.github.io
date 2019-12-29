@@ -13,12 +13,12 @@
   </url>
   
   <url>
-    <loc>https://failcom.github.io/tags/markdown/</loc>
+    <loc>https://failcom.github.io/categories/markdown/</loc>
     <lastmod>2019-12-13T21:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://failcom.github.io/categories/markdown/</loc>
+    <loc>https://failcom.github.io/tags/markdown/</loc>
     <lastmod>2019-12-13T21:00:00+08:00</lastmod>
   </url>
   
@@ -49,6 +49,21 @@
   
   <url>
     <loc>https://failcom.github.io/tags/</loc>
+    <lastmod>2019-12-13T21:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://failcom.github.io/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2019-12-13T21:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://failcom.github.io/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2019-12-13T21:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://failcom.github.io/post/test/</loc>
     <lastmod>2019-12-13T21:00:00+08:00</lastmod>
   </url>
   
