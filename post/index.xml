@@ -12,11 +12,20 @@
     
     
     <item>
-      <title>markdown | 简单实用</title>
-      <link>https://failcom.github.io/post/first/</link>
+      <title>JavaWeb | 总结</title>
+      <link>https://failcom.github.io/post/JavaWeb/</link>
       <pubDate>Fri, 13 Dec 2019 21:00:00 +0800</pubDate>
       
-      <guid>https://failcom.github.io/post/first/</guid>
+      <guid>https://failcom.github.io/post/JavaWeb/</guid>
+      <description>JavaWeb Java Web 1、基本概念 1.1、前言 web开发： web，网页的意思 ， www.baidu.com 静态web html，css 提供给所有人看的数据始终不会发生变化！ 动态web 淘宝，几乎是所有的网站； 提供给所有人看的数据始终会发生变化，每个人在不同的时间，不同的地点看到的信息各不相同！ 技术栈：Servlet/JSP，</description>
+    </item>
+    
+    <item>
+      <title>markdown | 使用</title>
+      <link>https://failcom.github.io/post/markdown/</link>
+      <pubDate>Fri, 13 Dec 2019 21:00:00 +0800</pubDate>
+      
+      <guid>https://failcom.github.io/post/markdown/</guid>
       <description>&lt;h1 id=&#34;headings&#34;&gt;Headings&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;# H1
@@ -35,15 +44,6 @@
       
       <guid>https://failcom.github.io/post/photo/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>测试 | 简单实用</title>
-      <link>https://failcom.github.io/post/test/</link>
-      <pubDate>Fri, 13 Dec 2019 21:00:00 +0800</pubDate>
-      
-      <guid>https://failcom.github.io/post/test/</guid>
-      <description>#测试</description>
     </item>
     
   </channel>
