@@ -67,7 +67,7 @@
     content: "\e60d";
 }
 body {
-    background-color:#FFF;
+    background-color:#f5f5dc;
     color:#444;
     font-size: 15px;
     /**
@@ -76,6 +76,13 @@ body {
     font-family: "Iowan Old Style", "Ovo", "Hoefler Text", Georgia, "Times New Roman", "TIBch", "Source Han Sans", "PingFangSC-Regular", "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", "Droid Sans Fallback", "WenQuanYi Micro Hei", sans-serif;
     /**-webkit-font-smoothing: antialiased;**/
     -moz-osx-font-smoothing: grayscale;
+   /* background: url(http://q37p15cao.bkt.clouddn.com/2017.8.16-%E7%8B%AC%E5%BA%93%E5%85%AC%E8%B7%AF%E7%BE%8E%E6%99%AF-links.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;*/
+
 }
 img{
     width: auto;
@@ -84,7 +91,8 @@ img{
     max-height: 100%;	
 }
 a, button.submit {
-    color:#6E7173;
+    color:#444;
+/*#6E7173*/
     text-decoration:none;
     -webkit-transition:all .1s ease-in;
     -moz-transition:all .1s ease-in;
@@ -92,7 +100,7 @@ a, button.submit {
     transition:all .1s ease-in;
 }
 a:hover, a:active {
-    color:#6E7173;
+    color:#444;
 }
 mark {
     padding: 3px 3px 3px 5px;
@@ -101,10 +109,11 @@ mark {
 pre, code {
     font-family:Menlo, Monaco, Consolas, "Lucida Console", "Courier New", monospace;
     font-size:.92857em;
+    color: #444;
 }
 pre {
     overflow:auto;
-    border: 1px solid #ddd;
+    border: 1px solid #444;
     display: block;
 }
 code {
@@ -120,7 +129,8 @@ blockquote {
     box-sizing: border-box;
     margin: 2.5em 0;
     padding: 0 0 0 50px;
-    color: #555;
+    color: #444;
+    /*#555*/
     border-left: none;
 }
 blockquote::before{
@@ -572,7 +582,7 @@ textarea.textarea {
     margin-bottom:30px;
 }
 .widget-title {
-    color:#6E7173;
+    color:#444;
     line-height:2.7;
     margin-top:0;
     font-size:16px;
@@ -749,6 +759,7 @@ img.alignright {
     .res-cons {
         width:auto;
         margin-right:320px;
+        color:#444;
     }
     .post-content img {
         max-width:100%;
@@ -766,6 +777,7 @@ img.alignright {
     .res-cons {
         width:auto;
         margin-right:260px;
+        color: #444;
     }
     #secondary {
         width:175px;
@@ -790,6 +802,7 @@ img.alignright {
     .res-cons {
         width:auto;
         margin-right:0;
+        color: #0000;
     }
     #secondary {
         display:none;

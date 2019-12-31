@@ -13,12 +13,12 @@
   </url>
   
   <url>
-    <loc>https://failcom.github.io/categories/JavaWeb/</loc>
+    <loc>https://failcom.github.io/tags/JavaWeb/</loc>
     <lastmod>2019-12-13T21:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://failcom.github.io/tags/JavaWeb/</loc>
+    <loc>https://failcom.github.io/categories/JavaWeb/</loc>
     <lastmod>2019-12-13T21:00:00+08:00</lastmod>
   </url>
   
@@ -28,12 +28,12 @@
   </url>
   
   <url>
-    <loc>https://failcom.github.io/categories/markdown/</loc>
+    <loc>https://failcom.github.io/tags/Markdown/</loc>
     <lastmod>2019-12-13T21:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://failcom.github.io/tags/markdown/</loc>
+    <loc>https://failcom.github.io/categories/Markdown/</loc>
     <lastmod>2019-12-13T21:00:00+08:00</lastmod>
   </url>
   
@@ -43,12 +43,12 @@
   </url>
   
   <url>
-    <loc>https://failcom.github.io/tags/photo/</loc>
+    <loc>https://failcom.github.io/tags/Photo/</loc>
     <lastmod>2019-12-13T21:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://failcom.github.io/categories/photo/</loc>
+    <loc>https://failcom.github.io/categories/Photo/</loc>
     <lastmod>2019-12-13T21:00:00+08:00</lastmod>
   </url>
   
@@ -64,6 +64,21 @@
   
   <url>
     <loc>https://failcom.github.io/tags/</loc>
+    <lastmod>2019-12-13T21:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://failcom.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
+    <lastmod>2019-12-13T21:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://failcom.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
+    <lastmod>2019-12-13T21:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://failcom.github.io/post/Singleton/</loc>
     <lastmod>2019-12-13T21:00:00+08:00</lastmod>
   </url>
   

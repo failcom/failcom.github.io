@@ -140,13 +140,12 @@
         }
     }
 </style>
-<div class="post-toc" style="position: absolute; top: 188px;">
+<div class="post-toc" style="position: absolute; top: 188px;opacity: 0.7;">
     <h2 class="post-toc-title">文章目录</h2>
     <div class="post-toc-content">
         <nav id="TableOfContents">
 <ul>
-<li><a href="#javaweb">JavaWeb</a>
-<ul>
+<li><a href="#javaweb">JavaWeb</a></li>
 <li><a href="#1-基本概念">1、基本概念</a>
 <ul>
 <li><a href="#1-1-前言">1.1、前言</a></li>
@@ -163,26 +162,20 @@
 <ul>
 <li><a href="#3-1-安装tomcat">3.1、 安装tomcat</a></li>
 <li><a href="#3-2-tomcat启动和配置">3.2、Tomcat启动和配置</a></li>
-<li><a href="#3-3-配置">3.3、配置</a>
-<ul>
+<li><a href="#3-3-配置">3.3、配置</a></li>
 <li><a href="#高难度面试题">高难度面试题：</a></li>
-</ul></li>
 <li><a href="#3-4-发布一个web网站">3.4、发布一个web网站</a></li>
 </ul></li>
 <li><a href="#4-http">4、Http</a>
 <ul>
 <li><a href="#4-1-什么是http">4.1、什么是HTTP</a></li>
 <li><a href="#4-2-两个时代">4.2、两个时代</a></li>
-<li><a href="#4-3-http请求">4.3、Http请求</a>
-<ul>
+<li><a href="#4-3-http请求">4.3、Http请求</a></li>
 <li><a href="#1-请求行">1、请求行</a></li>
 <li><a href="#2-消息头">2、消息头</a></li>
-</ul></li>
-<li><a href="#4-4-http响应">4.4、Http响应</a>
-<ul>
+<li><a href="#4-4-http响应">4.4、Http响应</a></li>
 <li><a href="#1-响应体">1.响应体</a></li>
 <li><a href="#2-响应状态码">2、响应状态码</a></li>
-</ul></li>
 </ul></li>
 <li><a href="#5-maven">5、Maven</a>
 <ul>
@@ -205,25 +198,19 @@
 <li><a href="#6-2-helloservlet">6.2、HelloServlet</a></li>
 <li><a href="#6-3-servlet原理">6.3、Servlet原理</a></li>
 <li><a href="#6-4-mapping问题">6.4、Mapping问题</a></li>
-<li><a href="#6-5-servletcontext">6.5、ServletContext</a>
-<ul>
+<li><a href="#6-5-servletcontext">6.5、ServletContext</a></li>
 <li><a href="#1-共享数据">1、共享数据</a></li>
 <li><a href="#2-获取初始化参数">2、获取初始化参数</a></li>
 <li><a href="#3-请求转发">3、请求转发</a></li>
 <li><a href="#4-读取资源文件">4、读取资源文件</a></li>
-</ul></li>
-<li><a href="#6-6-httpservletresponse">6.6、HttpServletResponse</a>
-<ul>
+<li><a href="#6-6-httpservletresponse">6.6、HttpServletResponse</a></li>
 <li><a href="#1-简单分类">1、简单分类</a></li>
 <li><a href="#2-下载文件">2、下载文件</a></li>
 <li><a href="#3-验证码功能">3、验证码功能</a></li>
 <li><a href="#4-实现重定向">4、实现重定向</a></li>
 <li><a href="#5-简单实现登录重定向">5、简单实现登录重定向</a></li>
-</ul></li>
-<li><a href="#6-7-httpservletrequest">6.7、HttpServletRequest</a>
-<ul>
+<li><a href="#6-7-httpservletrequest">6.7、HttpServletRequest</a></li>
 <li><a href="#获取参数-请求转发">获取参数，请求转发</a></li>
-</ul></li>
 </ul></li>
 <li><a href="#7-cookie-session">7、Cookie、Session</a>
 <ul>
@@ -236,12 +223,10 @@
 <ul>
 <li><a href="#8-1-什么是jsp">8.1、什么是JSP</a></li>
 <li><a href="#8-2-jsp原理">8.2、JSP原理</a></li>
-<li><a href="#8-3-jsp基础语法">8.3、JSP基础语法</a>
-<ul>
+<li><a href="#8-3-jsp基础语法">8.3、JSP基础语法</a></li>
 <li><a href="#jsp表达式"><strong>JSP表达式</strong></a></li>
 <li><a href="#jsp脚本片段"><strong>jsp脚本片段</strong></a></li>
 <li><a href="#jsp声明">JSP声明</a></li>
-</ul></li>
 <li><a href="#8-4-jsp指令">8.4、JSP指令</a></li>
 <li><a href="#8-5-9大内置对象">8.5、9大内置对象</a></li>
 <li><a href="#8-6-jsp标签-jstl标签-el表达式">8.6、JSP标签、JSTL标签、EL表达式</a></li>
@@ -256,7 +241,7 @@
 <li><a href="#12-监听器">12、监听器</a></li>
 <li><a href="#13-过滤器-监听器常见应用">13、过滤器、监听器常见应用</a></li>
 <li><a href="#14-jdbc">14、JDBC</a></li>
-</ul></li>
+<li><a href="#原文出处-https-www-cnblogs-com-hellokuangshen"><a href="https://www.cnblogs.com/hellokuangshen">原文出处</a></a></li>
 </ul>
 </nav>
     </div>
@@ -323,9 +308,9 @@
 
 <p>Java    Web</p>
 
-<h2 id="1-基本概念">1、基本概念</h2>
+<h1 id="1-基本概念">1、基本概念</h1>
 
-<h3 id="1-1-前言">1.1、前言</h3>
+<h2 id="1-1-前言">1.1、前言</h2>
 
 <p>web开发：</p>
 
@@ -348,7 +333,7 @@
 
 <p>在Java中，动态web资源开发的技术统称为JavaWeb；</p>
 
-<h3 id="1-2-web应用程序">1.2、web应用程序</h3>
+<h2 id="1-2-web应用程序">1.2、web应用程序</h2>
 
 <p>web应用程序：可以提供浏览器访问的程序；</p>
 
@@ -370,7 +355,7 @@
 
 <p>web应用程序编写完毕后，若想提供给外界访问：需要一个服务器来统一管理；</p>
 
-<h3 id="1-3-静态web">1.3、静态web</h3>
+<h2 id="1-3-静态web">1.3、静态web</h2>
 
 <ul>
 <li>*.htm, *.html,这些都是网页的后缀，如果服务器上一直存在这些东西，我们就可以直接进行读取。通络；</li>
@@ -390,7 +375,7 @@
 </ul></li>
 </ul>
 
-<h3 id="1-4-动态web">1.4、动态web</h3>
+<h2 id="1-4-动态web">1.4、动态web</h2>
 
 <p>页面会动态展示： “Web的页面展示的效果因人而异”；</p>
 
@@ -417,9 +402,9 @@
 
 <p>新手村：&ndash;魔鬼训练（分析原理，看源码）&ndash;&gt; PK场</p>
 
-<h2 id="2-web服务器">2、web服务器</h2>
+<h1 id="2-web服务器">2、web服务器</h1>
 
-<h3 id="2-1-技术讲解">2.1、技术讲解</h3>
+<h2 id="2-1-技术讲解">2.1、技术讲解</h2>
 
 <p><strong>ASP:</strong></p>
 
@@ -432,7 +417,7 @@
 
 <li><p>维护成本高！</p></li>
 
-<li><p>C#</p></li>
+<li><p>C##</p></li>
 
 <li><p>IIS</p>
 
@@ -474,7 +459,7 @@
 
 <p>&hellip;..</p>
 
-<h3 id="2-2-web服务器">2.2、web服务器</h3>
+<h2 id="2-2-web服务器">2.2、web服务器</h2>
 
 <p>服务器是一种被动的操作，用来处理用户的一些请求和给用户一些响应信息；</p>
 
@@ -506,9 +491,9 @@
 <li>这个东西的作用</li>
 </ol>
 
-<h2 id="3-tomcat">3、Tomcat</h2>
+<h1 id="3-tomcat">3、Tomcat</h1>
 
-<h3 id="3-1-安装tomcat">3.1、 安装tomcat</h3>
+<h2 id="3-1-安装tomcat">3.1、 安装tomcat</h2>
 
 <p>tomcat官网：<a href="http://tomcat.apache.org/">http://tomcat.apache.org/</a></p>
 
@@ -516,7 +501,7 @@
 
 <p><img src="/images/JavaWeb.assets/1567825627138.png" alt="1567825627138" /></p>
 
-<h3 id="3-2-tomcat启动和配置">3.2、Tomcat启动和配置</h3>
+<h2 id="3-2-tomcat启动和配置">3.2、Tomcat启动和配置</h2>
 
 <p>文件夹作用：</p>
 
@@ -536,7 +521,7 @@
 <li>乱码问题：配置文件中设置</li>
 </ol>
 
-<h3 id="3-3-配置">3.3、配置</h3>
+<h2 id="3-3-配置">3.3、配置</h2>
 
 <p><img src="/images/JavaWeb.assets/1567825967256.png" alt="1567825967256" /></p>
 
@@ -567,7 +552,7 @@
 </code></pre></li>
 </ul>
 
-<h4 id="高难度面试题">高难度面试题：</h4>
+<h2 id="高难度面试题">高难度面试题：</h2>
 
 <p>请你谈谈网站是如何进行访问的！</p>
 
@@ -592,7 +577,7 @@
 <li>可以配置一下环境变量（可选性）</li>
 </ol>
 
-<h3 id="3-4-发布一个web网站">3.4、发布一个web网站</h3>
+<h2 id="3-4-发布一个web网站">3.4、发布一个web网站</h2>
 
 <p>不会就先模仿</p>
 
@@ -634,9 +619,9 @@
 <li>原理</li>
 </ul>
 
-<h2 id="4-http">4、Http</h2>
+<h1 id="4-http">4、Http</h1>
 
-<h3 id="4-1-什么是http">4.1、什么是HTTP</h3>
+<h2 id="4-1-什么是http">4.1、什么是HTTP</h2>
 
 <p>HTTP（超文本传输协议）是一个简单的请求-响应协议，它通常运行在TCP之上。</p>
 
@@ -652,7 +637,7 @@
 <li>443</li>
 </ul>
 
-<h3 id="4-2-两个时代">4.2、两个时代</h3>
+<h2 id="4-2-两个时代">4.2、两个时代</h2>
 
 <ul>
 <li><p>http1.0</p>
@@ -670,7 +655,7 @@
 </ul></li>
 </ul>
 
-<h3 id="4-3-http请求">4.3、Http请求</h3>
+<h2 id="4-3-http请求">4.3、Http请求</h2>
 
 <ul>
 <li>客户端&mdash;发请求（Request）&mdash;服务器</li>
@@ -691,7 +676,7 @@ Cache-Control:max-age=0
 Connection:keep-alive
 </code></pre>
 
-<h4 id="1-请求行">1、请求行</h4>
+<h2 id="1-请求行">1、请求行</h2>
 
 <ul>
 <li>请求行中的请求方式：GET</li>
@@ -703,7 +688,7 @@ Connection:keep-alive
 </ul></li>
 </ul>
 
-<h4 id="2-消息头">2、消息头</h4>
+<h2 id="2-消息头">2、消息头</h2>
 
 <pre><code class="language-java">Accept：告诉浏览器，它所支持的数据类型
 Accept-Encoding：支持哪种编码格式  GBK   UTF-8   GB2312  ISO8859-1
@@ -713,7 +698,7 @@ Connection：告诉浏览器，请求完成是断开还是保持连接
 HOST：主机..../.
 </code></pre>
 
-<h3 id="4-4-http响应">4.4、Http响应</h3>
+<h2 id="4-4-http响应">4.4、Http响应</h2>
 
 <ul>
 <li>服务器&mdash;响应&mdash;&ndash;客户端</li>
@@ -727,7 +712,7 @@ Content-Encoding:gzip    编码
 Content-Type:text/html   类型
 </code></pre>
 
-<h4 id="1-响应体">1.响应体</h4>
+<h2 id="1-响应体">1.响应体</h2>
 
 <pre><code class="language-java">Accept：告诉浏览器，它所支持的数据类型
 Accept-Encoding：支持哪种编码格式  GBK   UTF-8   GB2312  ISO8859-1
@@ -739,7 +724,7 @@ Refresh：告诉客户端，多久刷新一次；
 Location：让网页重新定位；
 </code></pre>
 
-<h4 id="2-响应状态码">2、响应状态码</h4>
+<h2 id="2-响应状态码">2、响应状态码</h2>
 
 <p>200：请求响应成功  200</p>
 
@@ -761,7 +746,7 @@ Location：让网页重新定位；
 
 <p>当你的浏览器中地址栏输入地址并回车的一瞬间到页面能够展示回来，经历了什么？</p>
 
-<h2 id="5-maven">5、Maven</h2>
+<h1 id="5-maven">5、Maven</h1>
 
 <p><strong>我为什么要学习这个技术？</strong></p>
 
@@ -773,7 +758,7 @@ Location：让网页重新定位；
 
 <p>由此，Maven诞生了！</p>
 
-<h3 id="5-1-maven项目架构管理工具">5.1 Maven项目架构管理工具</h3>
+<h2 id="5-1-maven项目架构管理工具">5.1 Maven项目架构管理工具</h2>
 
 <p>我们目前用来就是方便导入jar包的！</p>
 
@@ -785,7 +770,7 @@ Location：让网页重新定位；
 
 <p>Maven会规定好你该如何去编写我们的Java代码，必须要按照这个规范来；</p>
 
-<h3 id="5-2-下载安装maven">5.2 下载安装Maven</h3>
+<h2 id="5-2-下载安装maven">5.2 下载安装Maven</h2>
 
 <p>官网;<a href="https://maven.apache.org/">https://maven.apache.org/</a></p>
 
@@ -795,7 +780,7 @@ Location：让网页重新定位；
 
 <p>小狂神友情建议：电脑上的所有环境都放在一个文件夹下，方便管理；</p>
 
-<h3 id="5-3-配置环境变量">5.3 配置环境变量</h3>
+<h2 id="5-3-配置环境变量">5.3 配置环境变量</h2>
 
 <p>在我们的系统环境变量中</p>
 
@@ -811,7 +796,7 @@ Location：让网页重新定位；
 
 <p>测试Maven是否安装成功，保证必须配置完毕！</p>
 
-<h3 id="5-4-阿里云镜像">5.4 阿里云镜像</h3>
+<h2 id="5-4-阿里云镜像">5.4 阿里云镜像</h2>
 
 <p><img src="/images/JavaWeb.assets/1567844609399.png" alt="1567844609399" /></p>
 
@@ -833,7 +818,7 @@ Location：让网页重新定位；
 </code></pre></li>
 </ul>
 
-<h3 id="5-5-本地仓库">5.5 本地仓库</h3>
+<h2 id="5-5-本地仓库">5.5 本地仓库</h2>
 
 <p>在本地的仓库，远程仓库；</p>
 
@@ -842,7 +827,7 @@ Location：让网页重新定位；
 <pre><code class="language-xml">&lt;localRepository&gt;D:\Environment\apache-maven-3.6.2\maven-repo&lt;/localRepository&gt;
 </code></pre>
 
-<h3 id="5-6-在idea中使用maven">5.6、在IDEA中使用Maven</h3>
+<h2 id="5-6-在idea中使用maven">5.6、在IDEA中使用Maven</h2>
 
 <ol>
 <li><p>启动IDEA</p></li>
@@ -884,7 +869,7 @@ Location：让网页重新定位；
 <li>到这里，Maven在IDEA中的配置和使用就OK了!</li>
 </ol>
 
-<h3 id="5-7-创建一个普通的maven项目">5.7、创建一个普通的Maven项目</h3>
+<h2 id="5-7-创建一个普通的maven项目">5.7、创建一个普通的Maven项目</h2>
 
 <p><img src="/images/JavaWeb.assets/1567845557744.png" alt="1567845557744" /></p>
 
@@ -894,7 +879,7 @@ Location：让网页重新定位；
 
 <p><img src="/images/JavaWeb.assets/1567845782034.png" alt="1567845782034" /></p>
 
-<h3 id="5-8-标记文件夹功能">5.8 标记文件夹功能</h3>
+<h2 id="5-8-标记文件夹功能">5.8 标记文件夹功能</h2>
 
 <p><img src="/images/JavaWeb.assets/1567845910728.png" alt="1567845910728" /></p>
 
@@ -904,7 +889,7 @@ Location：让网页重新定位；
 
 <p><img src="/images/JavaWeb.assets/1567846073511.png" alt="1567846073511" /></p>
 
-<h3 id="5-9-在-idea中配置tomcat">5.9 在 IDEA中配置Tomcat</h3>
+<h2 id="5-9-在-idea中配置tomcat">5.9 在 IDEA中配置Tomcat</h2>
 
 <p><img src="/images/JavaWeb.assets/1567846140348.png" alt="1567846140348" /></p>
 
@@ -926,7 +911,7 @@ Location：让网页重新定位；
 
 <p><img src="/images/JavaWeb.assets/1567846640372.png" alt="1567846640372" /></p>
 
-<h3 id="5-10-pom文件">5.10 pom文件</h3>
+<h2 id="5-10-pom文件">5.10 pom文件</h2>
 
 <p>pom.xml 是Maven的核心配置文件</p>
 
@@ -978,7 +963,7 @@ Location：让网页重新定位；
           &lt;artifactId&gt;maven-clean-plugin&lt;/artifactId&gt;
           &lt;version&gt;3.1.0&lt;/version&gt;
         &lt;/plugin&gt;
-        &lt;!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging --&gt;
+        &lt;!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html##Plugin_bindings_for_war_packaging --&gt;
         &lt;plugin&gt;
           &lt;artifactId&gt;maven-resources-plugin&lt;/artifactId&gt;
           &lt;version&gt;3.0.2&lt;/version&gt;
@@ -1037,13 +1022,13 @@ Location：让网页重新定位；
 &lt;/build&gt;
 </code></pre>
 
-<h3 id="5-12-idea操作">5.12 IDEA操作</h3>
+<h2 id="5-12-idea操作">5.12 IDEA操作</h2>
 
 <p><img src="/images/JavaWeb.assets/1567847630808.png" alt="1567847630808" /></p>
 
 <p><img src="/images/JavaWeb.assets/1567847662429.png" alt="1567847662429" /></p>
 
-<h3 id="5-13-解决遇到的问题">5.13 解决遇到的问题</h3>
+<h2 id="5-13-解决遇到的问题">5.13 解决遇到的问题</h2>
 
 <ol>
 <li>Maven 3.6.2</li>
@@ -1101,9 +1086,9 @@ Location：让网页重新定位；
 
 <p><img src="/images/JavaWeb.assets/1567906039469.png" alt="1567906039469" /></p>
 
-<h2 id="6-servlet">6、Servlet</h2>
+<h1 id="6-servlet">6、Servlet</h1>
 
-<h3 id="6-1-servlet简介">6.1、Servlet简介</h3>
+<h2 id="6-1-servlet简介">6.1、Servlet简介</h2>
 
 <ul>
 <li>Servlet就是sun公司开发动态web的一门技术</li>
@@ -1117,7 +1102,7 @@ Location：让网页重新定位；
 
 <p><strong>把实现了Servlet接口的Java程序叫做，Servlet</strong></p>
 
-<h3 id="6-2-helloservlet">6.2、HelloServlet</h3>
+<h2 id="6-2-helloservlet">6.2、HelloServlet</h2>
 
 <p>Serlvet接口Sun公司有两个默认的实现类：HttpServlet，GenericServlet</p>
 
@@ -1213,13 +1198,13 @@ Location：让网页重新定位；
 <li>启动测试，OK！</li>
 </ol>
 
-<h3 id="6-3-servlet原理">6.3、Servlet原理</h3>
+<h2 id="6-3-servlet原理">6.3、Servlet原理</h2>
 
 <p>Servlet是由Web服务器调用，web服务器在收到浏览器请求之后，会：</p>
 
 <p><img src="/images/JavaWeb.assets/1567913793252.png" alt="1567913793252" /></p>
 
-<h3 id="6-4-mapping问题">6.4、Mapping问题</h3>
+<h2 id="6-4-mapping问题">6.4、Mapping问题</h2>
 
 <ol>
 <li><p>一个Servlet可以指定一个映射路径</p>
@@ -1301,11 +1286,11 @@ Location：让网页重新定位；
 </code></pre></li>
 </ol>
 
-<h3 id="6-5-servletcontext">6.5、ServletContext</h3>
+<h2 id="6-5-servletcontext">6.5、ServletContext</h2>
 
 <p>web容器在启动的时候，它会为每个web程序都创建一个对应的ServletContext对象，它代表了当前的web应用；</p>
 
-<h4 id="1-共享数据">1、共享数据</h4>
+<h2 id="1-共享数据">1、共享数据</h2>
 
 <p>我在这个Servlet中保存的数据，可以在另外一个servlet中拿到；</p>
 
@@ -1369,7 +1354,7 @@ Location：让网页重新定位；
 
 <p>测试访问结果；</p>
 
-<h4 id="2-获取初始化参数">2、获取初始化参数</h4>
+<h2 id="2-获取初始化参数">2、获取初始化参数</h2>
 
 <pre><code class="language-xml">    &lt;!--配置一些web应用初始化参数--&gt;
     &lt;context-param&gt;
@@ -1385,7 +1370,7 @@ Location：让网页重新定位；
 }
 </code></pre>
 
-<h4 id="3-请求转发">3、请求转发</h4>
+<h2 id="3-请求转发">3、请求转发</h2>
 
 <pre><code class="language-java">@Override
 protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -1399,7 +1384,7 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws Se
 
 <p><img src="/images/JavaWeb.assets/1567924457532.png" alt="1567924457532" /></p>
 
-<h4 id="4-读取资源文件">4、读取资源文件</h4>
+<h2 id="4-读取资源文件">4、读取资源文件</h2>
 
 <p>Properties</p>
 
@@ -1441,7 +1426,7 @@ password=zxczxczxc
 
 <p>访问测试即可ok；</p>
 
-<h3 id="6-6-httpservletresponse">6.6、HttpServletResponse</h3>
+<h2 id="6-6-httpservletresponse">6.6、HttpServletResponse</h2>
 
 <p>web服务器接收到客户端的http请求，针对这个请求，分别创建一个代表请求的HttpServletRequest对象，代表响应的一个HttpServletResponse；</p>
 
@@ -1450,7 +1435,7 @@ password=zxczxczxc
 <li>如果要给客户端响应一些信息：找HttpServletResponse</li>
 </ul>
 
-<h4 id="1-简单分类">1、简单分类</h4>
+<h2 id="1-简单分类">1、简单分类</h2>
 
 <p>负责向浏览器发送数据的方法</p>
 
@@ -1526,7 +1511,7 @@ PrintWriter getWriter() throws IOException;
     int SC_HTTP_VERSION_NOT_SUPPORTED = 505;
 </code></pre>
 
-<h4 id="2-下载文件">2、下载文件</h4>
+<h2 id="2-下载文件">2、下载文件</h2>
 
 <ol>
 <li>向浏览器输出消息 （一直在讲，就不说了）</li>
@@ -1572,7 +1557,7 @@ out.close();
 </ol></li>
 </ol>
 
-<h4 id="3-验证码功能">3、验证码功能</h4>
+<h2 id="3-验证码功能">3、验证码功能</h2>
 
 <p>验证怎么来的？</p>
 
@@ -1647,7 +1632,7 @@ protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws S
 </code></pre></li>
 </ul>
 
-<h4 id="4-实现重定向">4、实现重定向</h4>
+<h2 id="4-实现重定向">4、实现重定向</h2>
 
 <p><img src="/images/JavaWeb.assets/1567931587955.png" alt="1567931587955" /></p>
 
@@ -1692,7 +1677,7 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws Se
 
 <p><img src="/images/JavaWeb.assets/1567932163430.png" alt="1567932163430" /></p>
 
-<h4 id="5-简单实现登录重定向">5、简单实现登录重定向</h4>
+<h2 id="5-简单实现登录重定向">5、简单实现登录重定向</h2>
 
 <pre><code class="language-jsp">&lt;%--这里提交的路径，需要寻找到项目的路径--%&gt;
 &lt;%--${pageContext.request.contextPath}代表当前的项目--%&gt;
@@ -1744,7 +1729,7 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws Se
 
 </code></pre>
 
-<h3 id="6-7-httpservletrequest">6.7、HttpServletRequest</h3>
+<h2 id="6-7-httpservletrequest">6.7、HttpServletRequest</h2>
 
 <p>HttpServletRequest代表客户端的请求，用户通过Http协议访问服务器，HTTP请求中的所有信息会被封装到HttpServletRequest，通过这个HttpServletRequest的方法，获得客户端的所有信息；</p>
 
@@ -1752,7 +1737,7 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws Se
 
 <p><img src="/images/JavaWeb.assets/1567934023106.png" alt="1567934023106" /></p>
 
-<h4 id="获取参数-请求转发">获取参数，请求转发</h4>
+<h2 id="获取参数-请求转发">获取参数，请求转发</h2>
 
 <p><img src="/images/JavaWeb.assets/1567934110794.png" alt="1567934110794" /></p>
 
@@ -1796,9 +1781,9 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws Se
 <li>重定向时候，url地址栏会发生变化； 302</li>
 </ul>
 
-<h2 id="7-cookie-session">7、Cookie、Session</h2>
+<h1 id="7-cookie-session">7、Cookie、Session</h1>
 
-<h3 id="7-1-会话">7.1、会话</h3>
+<h2 id="7-1-会话">7.1、会话</h2>
 
 <p><strong>会话</strong>：用户打开一个浏览器，点击了很多超链接，访问多个web资源，关闭浏览器，这个过程可以称之为会话；</p>
 
@@ -1822,7 +1807,7 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws Se
 <li>服务器登记你来过了，下次你来的时候我来匹配你； seesion</li>
 </ol>
 
-<h3 id="7-2-保存会话的两种技术">7.2、保存会话的两种技术</h3>
+<h2 id="7-2-保存会话的两种技术">7.2、保存会话的两种技术</h2>
 
 <p><strong>cookie</strong></p>
 
@@ -1838,7 +1823,7 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws Se
 
 <p>常见常见：网站登录之后，你下次不用再登录了，第二次访问直接就上去了！</p>
 
-<h3 id="7-3-cookie">7.3、Cookie</h3>
+<h2 id="7-3-cookie">7.3、Cookie</h2>
 
 <p><img src="/images/JavaWeb.assets/1568344447291.png" alt="1568344447291" /></p>
 
@@ -1880,7 +1865,7 @@ resp.addCookie(cookie); //响应给客户端一个cookie
 URLDecoder.decode(cookie.getValue(),&quot;UTF-8&quot;)
 </code></pre>
 
-<h3 id="7-4-session-重点">7.4、Session（重点）</h3>
+<h2 id="7-4-session-重点">7.4、Session（重点）</h2>
 
 <p><img src="/images/JavaWeb.assets/1568344560794.png" alt="1568344560794" /></p>
 
@@ -1979,9 +1964,9 @@ session.invalidate();
 
 <p><img src="/images/JavaWeb.assets/1568344679763.png" alt="1568344679763" /></p>
 
-<h2 id="8-jsp">8、JSP</h2>
+<h1 id="8-jsp">8、JSP</h1>
 
-<h3 id="8-1-什么是jsp">8.1、什么是JSP</h3>
+<h2 id="8-1-什么是jsp">8.1、什么是JSP</h2>
 
 <p>Java Server Pages ： Java服务器端页面，也和Servlet一样，用于动态Web技术！</p>
 
@@ -1997,7 +1982,7 @@ session.invalidate();
 </ul></li>
 </ul>
 
-<h3 id="8-2-jsp原理">8.2、JSP原理</h3>
+<h2 id="8-2-jsp原理">8.2、JSP原理</h2>
 
 <p>思路：JSP到底怎么执行的！</p>
 
@@ -2084,11 +2069,11 @@ _jspx_out = out;
 
 <p>这样的格式，输出到前端！</p>
 
-<h3 id="8-3-jsp基础语法">8.3、JSP基础语法</h3>
+<h2 id="8-3-jsp基础语法">8.3、JSP基础语法</h2>
 
 <p>任何语言都有自己的语法，JAVA中有,。 JSP 作为java技术的一种应用，它拥有一些自己扩充的语法（了解，知道即可！），Java所有语法都支持！</p>
 
-<h4 id="jsp表达式"><strong>JSP表达式</strong></h4>
+<h2 id="jsp表达式"><strong>JSP表达式</strong></h2>
 
 <pre><code class="language-jsp">  &lt;%--JSP表达式
   作用：用来将程序的输出，输出到客户端
@@ -2097,7 +2082,7 @@ _jspx_out = out;
   &lt;%= new java.util.Date()%&gt;
 </code></pre>
 
-<h4 id="jsp脚本片段"><strong>jsp脚本片段</strong></h4>
+<h2 id="jsp脚本片段"><strong>jsp脚本片段</strong></h2>
 
 <pre><code class="language-jsp">
   &lt;%--jsp脚本片段--%&gt;
@@ -2136,7 +2121,7 @@ _jspx_out = out;
   %&gt;
 </code></pre>
 
-<h4 id="jsp声明">JSP声明</h4>
+<h2 id="jsp声明">JSP声明</h2>
 
 <pre><code class="language-jsp">  &lt;%!
     static {
@@ -2164,7 +2149,7 @@ _jspx_out = out;
 
 <p>JSP的注释，不会在客户端显示，HTML就会！</p>
 
-<h3 id="8-4-jsp指令">8.4、JSP指令</h3>
+<h2 id="8-4-jsp指令">8.4、JSP指令</h2>
 
 <pre><code class="language-jsp">&lt;%@page args.... %&gt;
 &lt;%@include file=&quot;&quot;%&gt;
@@ -2188,7 +2173,7 @@ _jspx_out = out;
 
 </code></pre>
 
-<h3 id="8-5-9大内置对象">8.5、9大内置对象</h3>
+<h2 id="8-5-9大内置对象">8.5、9大内置对象</h2>
 
 <ul>
 <li>PageContext    存东西</li>
@@ -2215,7 +2200,7 @@ application.setAttribute(&quot;name4&quot;,&quot;秦疆4号&quot;);  //保存的
 
 <p>application：客户端向服务器发送请求，产生的数据，一个用户用完了，其他用户还可能使用，比如：聊天数据；</p>
 
-<h3 id="8-6-jsp标签-jstl标签-el表达式">8.6、JSP标签、JSTL标签、EL表达式</h3>
+<h2 id="8-6-jsp标签-jstl标签-el表达式">8.6、JSP标签、JSTL标签、EL表达式</h2>
 
 <pre><code class="language-xml">&lt;!-- JSTL表达式的依赖 --&gt;
 &lt;dependency&gt;
@@ -2366,7 +2351,7 @@ step,   步长
 
 </code></pre>
 
-<h2 id="9-javabean">9、JavaBean</h2>
+<h1 id="9-javabean">9、JavaBean</h1>
 
 <p>实体类</p>
 
@@ -2445,11 +2430,11 @@ class A{
 <li>JDBC 复习 ： 如何使用JDBC ,  JDBC crud， jdbc 事务</li>
 </ul>
 
-<h2 id="10-mvc三层架构">10、MVC三层架构</h2>
+<h1 id="10-mvc三层架构">10、MVC三层架构</h1>
 
 <p>什么是MVC：  Model     view     Controller  模型、视图、控制器</p>
 
-<h3 id="10-1-早些年">10.1、早些年</h3>
+<h2 id="10-1-早些年">10.1、早些年</h2>
 
 <p><img src="/images/JavaWeb.assets/1568423664332.png" alt="1568423664332" /></p>
 
@@ -2467,7 +2452,7 @@ JDBC
 Mysql Oracle SqlServer ....
 </code></pre>
 
-<h3 id="10-2-mvc三层架构">10.2、MVC三层架构</h3>
+<h2 id="10-2-mvc三层架构">10.2、MVC三层架构</h2>
 
 <p><img src="/images/JavaWeb.assets/1568424227281.png" alt="1568424227281" /></p>
 
@@ -2498,7 +2483,7 @@ Mysql Oracle SqlServer ....
 </code></pre></li>
 </ul>
 
-<h2 id="11-filter-重点">11、Filter （重点）</h2>
+<h1 id="11-filter-重点">11、Filter （重点）</h1>
 
 <p>Filter：过滤器 ，用来过滤网站的数据；</p>
 
@@ -2570,7 +2555,7 @@ Mysql Oracle SqlServer ....
 </code></pre></li>
 </ol>
 
-<h2 id="12-监听器">12、监听器</h2>
+<h1 id="12-监听器">12、监听器</h1>
 
 <p>实现一个监听器的接口；（有N种）</p>
 
@@ -2643,7 +2628,7 @@ Mysql Oracle SqlServer ....
 <li><p>看情况是否使用！</p></li>
 </ol>
 
-<h2 id="13-过滤器-监听器常见应用">13、过滤器、监听器常见应用</h2>
+<h1 id="13-过滤器-监听器常见应用">13、过滤器、监听器常见应用</h1>
 
 <p><strong>监听器：GUI编程中经常使用；</strong></p>
 
@@ -2694,7 +2679,7 @@ chain.doFilter(request,response);
 </code></pre></li>
 </ol>
 
-<h2 id="14-jdbc">14、JDBC</h2>
+<h1 id="14-jdbc">14、JDBC</h1>
 
 <p>什么是JDBC ： Java连接数据库！</p>
 
@@ -2945,7 +2930,7 @@ INSERT INTO account(`name`,money) VALUES('C',1000);
     }
 </code></pre>
 
-<p><a href="https://www.cnblogs.com/hellokuangshen"><strong>原文出处</strong></a></p>
+<h1 id="原文出处-https-www-cnblogs-com-hellokuangshen"><a href="https://www.cnblogs.com/hellokuangshen">原文出处</a></h1>
 
         </div>
 
@@ -2967,15 +2952,15 @@ INSERT INTO account(`name`,money) VALUES('C',1000);
     <h2>See Also</h2>
     <ul class="listing">
         
-        <li><a href="/post/markdown/">markdown | 使用</a></li>
+        <li><a href="/post/markdown/">Markdown | 使用</a></li>
         
-        <li><a href="/post/photo/">photo | 第一期</a></li>
+        <li><a href="/post/photo/">Photo | 第一期</a></li>
+        
+        <li><a href="/post/Singleton/">设计模式 | 单例模式</a></li>
         
         <li><a href="/about/">关于我</a></li>
         
         <li><a href="/archives/">归档</a></li>
-        
-        <li><a href="/search/">搜索</a></li>
         
     </ul>
 </div>
@@ -3019,11 +3004,15 @@ INSERT INTO account(`name`,money) VALUES('C',1000);
     </li>
     
     <li>
-        <a href="https://failcom.github.io/post/markdown/" title="markdown | 使用">markdown | 使用</a>
+        <a href="https://failcom.github.io/post/markdown/" title="Markdown | 使用">Markdown | 使用</a>
     </li>
     
     <li>
-        <a href="https://failcom.github.io/post/photo/" title="photo | 第一期">photo | 第一期</a>
+        <a href="https://failcom.github.io/post/photo/" title="Photo | 第一期">Photo | 第一期</a>
+    </li>
+    
+    <li>
+        <a href="https://failcom.github.io/post/Singleton/" title="设计模式 | 单例模式">设计模式 | 单例模式</a>
     </li>
     
 </ul>
@@ -3035,9 +3024,11 @@ INSERT INTO account(`name`,money) VALUES('C',1000);
     
     <li><a href="https://failcom.github.io/categories/JavaWeb/">JavaWeb (1)</a></li>
     
-    <li><a href="https://failcom.github.io/categories/markdown/">markdown (1)</a></li>
+    <li><a href="https://failcom.github.io/categories/Markdown/">Markdown (1)</a></li>
     
-    <li><a href="https://failcom.github.io/categories/photo/">photo (1)</a></li>
+    <li><a href="https://failcom.github.io/categories/Photo/">Photo (1)</a></li>
+    
+    <li><a href="https://failcom.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式 (1)</a></li>
     
 </ul>
     </section>
@@ -3048,9 +3039,11 @@ INSERT INTO account(`name`,money) VALUES('C',1000);
     
     <a href="https://failcom.github.io/tags/JavaWeb/">JavaWeb</a>
     
-    <a href="https://failcom.github.io/tags/markdown/">markdown</a>
+    <a href="https://failcom.github.io/tags/Markdown/">Markdown</a>
     
-    <a href="https://failcom.github.io/tags/photo/">photo</a>
+    <a href="https://failcom.github.io/tags/Photo/">Photo</a>
+    
+    <a href="https://failcom.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a>
     
 </div>
     </section>
